@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'action_manbold';
+    src: url('Action_Man_Bold-webfont.eot');
+    src: url('Action_Man_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Action_Man_Bold-webfont.woff') format('woff'),
+         url('Action_Man_Bold-webfont.ttf') format('truetype'),
+         url('Action_Man_Bold-webfont.svg#action_manbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: Helvetica, Times, serif;
+	line-height: 1.4em;
+	background-color: rgb(206,206,206) ;
+	width: 500px;
+	padding: 50px;
+	margin: 30px auto 30px auto;
+	text-align: left;
+}
+h1 {
+	color:red;
+	font-family: 'action_manbold', Times, Serif;
+	font-size: 35px;
+	}
+	h2 {
+	color: blue;
+	font-family: 'action_manbold', Times, Serif;
+	font-size: 20px;
+	}
+ul	{
+	width: 120px;
+	list-style-position: outside;
+}
+a {
+	color: #262a32;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ffc107
+}
